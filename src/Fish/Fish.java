@@ -6,17 +6,20 @@ public class Fish extends Animal{
 
     private String location;
     private boolean hasGills;
+    private boolean releaseElectricCharge;
 
 
     public Fish() {
         this.location = "Ocean";
         this.hasGills = true;
+        this.releaseElectricCharge = false;
     }
 
-    public Fish(String location, boolean hasGills, int weight, float height, String animalType, String bloodType) {
+    public Fish(String location, boolean hasGills, boolean releaseElectricCharge, int weight, float height, String animalType, String bloodType) {
         super(weight, height, animalType, bloodType);
         this.location = location;
         this.hasGills = hasGills;
+        this.releaseElectricCharge = releaseElectricCharge;
     }
 
     public String getLocation() {
@@ -39,5 +42,12 @@ public class Fish extends Animal{
         this.hasGills = hasGills;
     }
 
+    public boolean getReleaseElectricCharge() {
+        return this.releaseElectricCharge;
+    }
+
+    public void setReleaseElectricCharge(boolean releaseElectricCharge) {
+        this.releaseElectricCharge = releaseElectricCharge;
+    }
     
 }

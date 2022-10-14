@@ -15,7 +15,6 @@ public class Reptile extends Animal {
         this.eggType = "Amniotic";
     }
 
-
     public Reptile(String skinType, String bone, String eggType, int weight, float height, String animalType, String bloodType) {
         super(weight, height, animalType, bloodType);
         this.skinType = skinType;
