@@ -6,7 +6,7 @@ public class Eagle extends Bird {
     }
     
     public Eagle(boolean hasFethers, boolean canFly, int weight, float height, String animalType, String bloodType){
-        super(hasFethers, canFly, weight, height, animalType, bloodType)
+        super(hasFethers, canFly, weight, height, animalType, bloodType);
     }
 
     public void showInfo() {
